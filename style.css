@@ -248,19 +248,15 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 
-.logo-icon {
+.logo-img {
   width: 46px;
   height: 46px;
-  background: linear-gradient(135deg, var(--blue-700), var(--blue-500));
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  font-size: 1rem;
-  color: white;
-  letter-spacing: 1px;
+  object-fit: contain;
+  background: var(--white);
+  padding: 3px;
   flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .logo-text { display: flex; flex-direction: column; }
